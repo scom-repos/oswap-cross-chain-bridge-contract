@@ -1,5 +1,5 @@
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.json.ts" {
     const _default: {
         abi: ({
             inputs: {
@@ -33,8 +33,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
     };
     export default _default;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         logic: string;
@@ -68,8 +68,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
     const _default_1: {
         abi: ({
             inputs: {
@@ -114,8 +114,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
     };
     export default _default_1;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -209,8 +209,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.json.ts" {
     const _default_2: {
         abi: {
             inputs: {
@@ -231,8 +231,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
     };
     export default _default_2;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, TransactionOptions } from "@ijstech/eth-contract";
     export interface IOnERC721ReceivedParams {
         param1: string;
@@ -251,8 +251,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contra
         private assign;
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/Authorization.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/Authorization.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/Authorization.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/Authorization.json.ts" {
     const _default_3: {
         abi: ({
             inputs: any[];
@@ -293,8 +293,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/Authorization.json.t
     };
     export default _default_3;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/Authorization.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/Authorization.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/Authorization.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/Authorization.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class Authorization extends _Contract {
         static _abi: any;
@@ -354,8 +354,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/Authorization.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.json.ts" {
     const _default_4: {
         abi: ({
             inputs: {
@@ -400,8 +400,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.j
     };
     export default _default_4;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IAddTrollParams {
         signatures: string[];
@@ -748,8 +748,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.t
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/MintableToken.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/MintableToken.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/MintableToken.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/MintableToken.json.ts" {
     const _default_5: {
         abi: ({
             inputs: {
@@ -794,8 +794,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/MintableToken.json.t
     };
     export default _default_5;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/MintableToken.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/MintableToken.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/MintableToken.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/MintableToken.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -958,8 +958,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/MintableToken.ts" {
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.json.ts" {
     const _default_6: {
         abi: ({
             inputs: {
@@ -1004,8 +1004,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTro
     };
     export default _default_6;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IHashUnstakeRequestParams {
         backer: string;
@@ -1208,8 +1208,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTro
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.json.ts" {
     const _default_7: {
         abi: ({
             inputs: {
@@ -1300,8 +1300,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.
     };
     export default _default_7;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IAddChainParams {
         chainId: number | BigNumber;
@@ -1529,8 +1529,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.json.ts" {
     const _default_8: {
         abi: ({
             inputs: {
@@ -1582,8 +1582,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryE
     };
     export default _default_8;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         votingManager: string;
@@ -1614,8 +1614,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryE
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.json.ts" {
     const _default_9: {
         abi: ({
             inputs: {
@@ -1665,8 +1665,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.js
     };
     export default _default_9;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface ISetConfigParams {
         name: string;
@@ -1885,8 +1885,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.json.ts" {
     const _default_10: {
         abi: ({
             inputs: {
@@ -1938,8 +1938,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTra
     };
     export default _default_10;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         arbitrageFee: number | BigNumber;
@@ -1995,8 +1995,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTra
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.json.ts" {
     const _default_11: {
         abi: ({
             inputs: {
@@ -2048,8 +2048,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.
     };
     export default _default_11;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         logic: string;
@@ -2155,8 +2155,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.json.ts" {
     const _default_12: {
         abi: ({
             inputs: {
@@ -2211,8 +2211,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTroll
     };
     export default _default_12;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         govToken: string;
@@ -2676,8 +2676,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTroll
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.json.ts" {
     const _default_13: {
         abi: ({
             inputs: {
@@ -2729,8 +2729,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotin
     };
     export default _default_13;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class OSWAP_MainChainVotingExecutor extends _Contract {
         static _abi: any;
@@ -2764,8 +2764,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotin
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.json.ts" {
     const _default_14: {
         abi: ({
             inputs: any[];
@@ -2823,8 +2823,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWra
     };
     export default _default_14;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface ISwapETHForExactTokensParams {
         pair: string[];
@@ -2935,8 +2935,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWra
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.json.ts" {
     const _default_15: {
         abi: ({
             inputs: {
@@ -2981,8 +2981,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTroll
     };
     export default _default_15;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IAddTrollParams {
         signatures: string[];
@@ -3391,8 +3391,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTroll
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.json.ts" {
     const _default_16: {
         abi: ({
             inputs: {
@@ -3437,8 +3437,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotin
     };
     export default _default_16;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IExecuteParams {
         signatures: string[];
@@ -3480,8 +3480,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotin
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingContract.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingContract.json.ts" {
     const _default_17: {
         abi: ({
             inputs: {
@@ -3517,8 +3517,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract
     };
     export default _default_17;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, TransactionOptions } from "@ijstech/eth-contract";
     export class OSWAP_VotingContract extends _Contract {
         static _abi: any;
@@ -3640,8 +3640,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract
         private assign;
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingManager.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingManager.json.ts" {
     const _default_18: {
         abi: ({
             inputs: {
@@ -3686,8 +3686,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.
     };
     export default _default_18;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         trollRegistry: string;
@@ -4012,8 +4012,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.json.ts" {
     const _default_19: {
         abi: ({
             inputs: {
@@ -4050,8 +4050,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry
     };
     export default _default_19;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, TransactionOptions } from "@ijstech/eth-contract";
     export interface INewVoteParams {
         executor: string;
@@ -4080,8 +4080,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry
         private assign;
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.json.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.json.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.json.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.json.ts" {
     const _default_20: {
         abi: ({
             inputs: {
@@ -4167,8 +4167,8 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.js
     };
     export default _default_20;
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts" {
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         vaultRegistry: string;
@@ -4712,31 +4712,31 @@ declare module "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts
         }
     }
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract/contracts/index.ts" />
-declare module "@scom/cross-chain-bridge-contract/contracts/index.ts" {
-    export { ERC1967Proxy } from "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts";
-    export { ERC20 } from "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
-    export { ERC721Holder } from "@scom/cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts";
-    export { Authorization } from "@scom/cross-chain-bridge-contract/contracts/Authorization.ts";
-    export { MOCK_TrollRegistry } from "@scom/cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts";
-    export { MintableToken } from "@scom/cross-chain-bridge-contract/contracts/MintableToken.ts";
-    export { OSWAP_BridgeVaultTrollRegistry } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts";
-    export { OSWAP_ChainRegistry } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts";
-    export { OSWAP_ChainRegistryExecutor } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts";
-    export { OSWAP_ConfigStore } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts";
-    export { OSWAP_ConfigStoreTradeVault } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts";
-    export { OSWAP_ContractProxy } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts";
-    export { OSWAP_MainChainTrollRegistry } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts";
-    export { OSWAP_MainChainVotingExecutor } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts";
-    export { OSWAP_RouterVaultWrapper } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts";
-    export { OSWAP_SideChainTrollRegistry } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts";
-    export { OSWAP_SideChainVotingExecutor } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts";
-    export { OSWAP_VotingContract } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts";
-    export { OSWAP_VotingManager } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts";
-    export { OSWAP_VotingRegistry } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts";
-    export { OSWAP_BridgeVault } from "@scom/cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts";
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract/contracts/index.ts" />
+declare module "@scom/oswap-cross-chain-bridge-contract/contracts/index.ts" {
+    export { ERC1967Proxy } from "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.ts";
+    export { ERC20 } from "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
+    export { ERC721Holder } from "@scom/oswap-cross-chain-bridge-contract/contracts/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.ts";
+    export { Authorization } from "@scom/oswap-cross-chain-bridge-contract/contracts/Authorization.ts";
+    export { MOCK_TrollRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/MOCK_TrollRegistry.ts";
+    export { MintableToken } from "@scom/oswap-cross-chain-bridge-contract/contracts/MintableToken.ts";
+    export { OSWAP_BridgeVaultTrollRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVaultTrollRegistry.ts";
+    export { OSWAP_ChainRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistry.ts";
+    export { OSWAP_ChainRegistryExecutor } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ChainRegistryExecutor.ts";
+    export { OSWAP_ConfigStore } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStore.ts";
+    export { OSWAP_ConfigStoreTradeVault } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ConfigStoreTradeVault.ts";
+    export { OSWAP_ContractProxy } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_ContractProxy.ts";
+    export { OSWAP_MainChainTrollRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainTrollRegistry.ts";
+    export { OSWAP_MainChainVotingExecutor } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_MainChainVotingExecutor.ts";
+    export { OSWAP_RouterVaultWrapper } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_RouterVaultWrapper.ts";
+    export { OSWAP_SideChainTrollRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainTrollRegistry.ts";
+    export { OSWAP_SideChainVotingExecutor } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_SideChainVotingExecutor.ts";
+    export { OSWAP_VotingContract } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingContract.ts";
+    export { OSWAP_VotingManager } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingManager.ts";
+    export { OSWAP_VotingRegistry } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_VotingRegistry.ts";
+    export { OSWAP_BridgeVault } from "@scom/oswap-cross-chain-bridge-contract/contracts/OSWAP_BridgeVault.ts";
 }
-/// <amd-module name="@scom/cross-chain-bridge-contract" />
-declare module "@scom/cross-chain-bridge-contract" {
-    export * as Contracts from "@scom/cross-chain-bridge-contract/contracts/index.ts";
+/// <amd-module name="@scom/oswap-cross-chain-bridge-contract" />
+declare module "@scom/oswap-cross-chain-bridge-contract" {
+    export * as Contracts from "@scom/oswap-cross-chain-bridge-contract/contracts/index.ts";
 }

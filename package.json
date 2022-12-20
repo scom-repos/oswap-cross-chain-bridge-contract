@@ -1,6 +1,6 @@
 {
-  "name": "@scom/cross-chain-bridge-contract",
-  "version": "0.1.15",
+  "name": "@scom/oswap-cross-chain-bridge-contract",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "plugin": "dist/index.js",
