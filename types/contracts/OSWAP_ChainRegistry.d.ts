@@ -109,11 +109,11 @@ export declare class OSWAP_ChainRegistry extends _Contract {
     };
     getChain: {
         (params: IGetChainParams, options?: TransactionOptions): Promise<{
-            _status: BigNumber;
-            _govToken: string;
-            _configStore: string;
-            _contracts: string[];
-            _vaults: {
+            status: BigNumber;
+            govToken: string;
+            configStore: string;
+            contracts: string[];
+            vaults: {
                 token: string;
                 vaultRegistry: string;
                 bridgeVault: string;
@@ -195,17 +195,17 @@ export declare module OSWAP_ChainRegistry {
     interface UpdateAddressEvent {
         chainId: BigNumber;
         contractName: string;
-        _address: string;
+        address: string;
         _event: Event;
     }
     interface UpdateConfigStoreEvent {
         chainId: BigNumber;
-        _address: string;
+        address: string;
         _event: Event;
     }
     interface UpdateMainChainAddressEvent {
         contractName: string;
-        _address: string;
+        address: string;
         _event: Event;
     }
     interface UpdateStatusEvent {

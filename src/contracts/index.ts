@@ -1,6 +1,3 @@
-export { ERC1967Proxy } from './@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy';
-export { ERC20 } from './@openzeppelin/contracts/token/ERC20/ERC20';
-export { ERC721Holder } from './@openzeppelin/contracts/token/ERC721/utils/ERC721Holder';
 export { Authorization } from './Authorization';
 export { MOCK_TrollRegistry } from './MOCK_TrollRegistry';
 export { MintableToken } from './MintableToken';

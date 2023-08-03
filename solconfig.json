@@ -1,8 +1,0 @@
-{
-"version": "0.8.6",
-"optimizerRuns": 999999,
-"sourceDir": "contracts",
-"outputDir": "src/contracts",
-"outputObjects": "bytecode",
-"overrides": [{"sources":["OSWAP_BridgeVault.sol"], "optimizerRuns":200}]
-}

@@ -110,11 +110,11 @@ export declare class OSWAP_VotingManager extends _Contract {
     };
     getVotingParams: {
         (name: string, options?: TransactionOptions): Promise<{
-            _minExeDelay: BigNumber;
-            _minVoteDuration: BigNumber;
-            _maxVoteDuration: BigNumber;
-            _minGovTokenToCreateVote: BigNumber;
-            _minQuorum: BigNumber;
+            minExeDelay: BigNumber;
+            minVoteDuration: BigNumber;
+            maxVoteDuration: BigNumber;
+            minGovTokenToCreateVote: BigNumber;
+            minQuorum: BigNumber;
         }>;
     };
     getVotings: {

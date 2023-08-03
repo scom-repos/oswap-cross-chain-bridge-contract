@@ -214,7 +214,7 @@ export class OSWAP_VotingManager extends _Contract{
         (options?: TransactionOptions): Promise<BigNumber>;
     }
     getVotingParams: {
-        (name:string, options?: TransactionOptions): Promise<{_minExeDelay:BigNumber,_minVoteDuration:BigNumber,_maxVoteDuration:BigNumber,_minGovTokenToCreateVote:BigNumber,_minQuorum:BigNumber}>;
+        (name:string, options?: TransactionOptions): Promise<{minExeDelay:BigNumber,minVoteDuration:BigNumber,maxVoteDuration:BigNumber,minGovTokenToCreateVote:BigNumber,minQuorum:BigNumber}>;
     }
     getVotings: {
         (params: IGetVotingsParams, options?: TransactionOptions): Promise<string[]>;
@@ -358,14 +358,14 @@ export class OSWAP_VotingManager extends _Contract{
             return new BigNumber(result);
         }
         this.getVotingCount = getVotingCount_call
-        let getVotingParams_call = async (name:string, options?: TransactionOptions): Promise<{_minExeDelay:BigNumber,_minVoteDuration:BigNumber,_maxVoteDuration:BigNumber,_minGovTokenToCreateVote:BigNumber,_minQuorum:BigNumber}> => {
+        let getVotingParams_call = async (name:string, options?: TransactionOptions): Promise<{minExeDelay:BigNumber,minVoteDuration:BigNumber,maxVoteDuration:BigNumber,minGovTokenToCreateVote:BigNumber,minQuorum:BigNumber}> => {
             let result = await this.call('getVotingParams',[this.wallet.utils.stringToBytes32(name)],options);
             return {
-                _minExeDelay: new BigNumber(result._minExeDelay),
-                _minVoteDuration: new BigNumber(result._minVoteDuration),
-                _maxVoteDuration: new BigNumber(result._maxVoteDuration),
-                _minGovTokenToCreateVote: new BigNumber(result._minGovTokenToCreateVote),
-                _minQuorum: new BigNumber(result._minQuorum)
+                minExeDelay: new BigNumber(result._minExeDelay),
+                minVoteDuration: new BigNumber(result._minVoteDuration),
+                maxVoteDuration: new BigNumber(result._maxVoteDuration),
+                minGovTokenToCreateVote: new BigNumber(result._minGovTokenToCreateVote),
+                minQuorum: new BigNumber(result._minQuorum)
             };
         }
         this.getVotingParams = getVotingParams_call

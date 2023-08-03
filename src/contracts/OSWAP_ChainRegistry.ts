@@ -41,7 +41,7 @@ export class OSWAP_ChainRegistry extends _Contract{
         return {
             chainId: new BigNumber(result.chainId),
             contractName: result.contractName,
-            _address: result._address,
+            address: result._address,
             _event: event
         };
     }
@@ -52,7 +52,7 @@ export class OSWAP_ChainRegistry extends _Contract{
         let result = event.data;
         return {
             chainId: new BigNumber(result.chainId),
-            _address: result._address,
+            address: result._address,
             _event: event
         };
     }
@@ -63,7 +63,7 @@ export class OSWAP_ChainRegistry extends _Contract{
         let result = event.data;
         return {
             contractName: result.contractName,
-            _address: result._address,
+            address: result._address,
             _event: event
         };
     }
@@ -113,7 +113,7 @@ export class OSWAP_ChainRegistry extends _Contract{
         (param1:number|BigNumber, options?: TransactionOptions): Promise<string>;
     }
     getChain: {
-        (params: IGetChainParams, options?: TransactionOptions): Promise<{_status:BigNumber,_govToken:string,_configStore:string,_contracts:string[],_vaults:{token:string,vaultRegistry:string,bridgeVault:string}[]}>;
+        (params: IGetChainParams, options?: TransactionOptions): Promise<{status:BigNumber,govToken:string,configStore:string,contracts:string[],vaults:{token:string,vaultRegistry:string,bridgeVault:string}[]}>;
     }
     govToken: {
         (param1:number|BigNumber, options?: TransactionOptions): Promise<string>;
@@ -196,14 +196,14 @@ export class OSWAP_ChainRegistry extends _Contract{
         }
         this.configStore = configStore_call
         let getChainParams = (params: IGetChainParams) => [this.wallet.utils.toString(params.chainId),this.wallet.utils.stringToBytes32(params.contractnames)];
-        let getChain_call = async (params: IGetChainParams, options?: TransactionOptions): Promise<{_status:BigNumber,_govToken:string,_configStore:string,_contracts:string[],_vaults:{token:string,vaultRegistry:string,bridgeVault:string}[]}> => {
+        let getChain_call = async (params: IGetChainParams, options?: TransactionOptions): Promise<{status:BigNumber,govToken:string,configStore:string,contracts:string[],vaults:{token:string,vaultRegistry:string,bridgeVault:string}[]}> => {
             let result = await this.call('getChain',getChainParams(params),options);
             return {
-                _status: new BigNumber(result._status),
-                _govToken: result._govToken,
-                _configStore: result._configStore,
-                _contracts: result._contracts,
-                _vaults: result._vaults.map(e=>(
+                status: new BigNumber(result._status),
+                govToken: result._govToken,
+                configStore: result._configStore,
+                contracts: result._contracts,
+                vaults: result._vaults.map(e=>(
                     {
                         token: e.token,
                         vaultRegistry: e.vaultRegistry,
@@ -376,9 +376,9 @@ export class OSWAP_ChainRegistry extends _Contract{
 }
 export module OSWAP_ChainRegistry{
     export interface NewChainEvent {chainId:BigNumber,status:BigNumber,govToken:string,_event:Event}
-    export interface UpdateAddressEvent {chainId:BigNumber,contractName:string,_address:string,_event:Event}
-    export interface UpdateConfigStoreEvent {chainId:BigNumber,_address:string,_event:Event}
-    export interface UpdateMainChainAddressEvent {contractName:string,_address:string,_event:Event}
+    export interface UpdateAddressEvent {chainId:BigNumber,contractName:string,address:string,_event:Event}
+    export interface UpdateConfigStoreEvent {chainId:BigNumber,address:string,_event:Event}
+    export interface UpdateMainChainAddressEvent {contractName:string,address:string,_event:Event}
     export interface UpdateStatusEvent {chainId:BigNumber,status:BigNumber,_event:Event}
     export interface UpdateVaultEvent {index:BigNumber,chainId:BigNumber,vault:{token:string,vaultRegistry:string,bridgeVault:string},_event:Event}
 }
